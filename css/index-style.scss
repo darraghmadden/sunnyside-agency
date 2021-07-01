@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+}
+
+.s1 {
+    background-image: url('/images/mobile/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    h1 {
+        font-size: 3rem;
+        color: white;
+        padding:10px;
+    }
+}
+
+// .bgimage-header {
+//     top: 0;
+//     left: 0;
+//     position: absolute;
+//     z-index: -1;
+//     margin-bottom: 10px;
+// }
+
+div {
+    padding: 10px;
+    text-align: center;
+    //width: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+.gallery {
+    margin: 0;
+    padding: 0;
+    width: 49%;
+}
